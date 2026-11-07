@@ -12,7 +12,7 @@ Ask your agent to add it from [herdr.dev/mods](https://herdr.dev/gallery/?type=m
 
 1. In Telegram, message [@BotFather](https://t.me/BotFather), send `/newbot`, and copy the token.
 2. Open the panel and press Set token. A terminal asks for it with the text hidden. It goes in Windows Credential Manager or the macOS keychain.
-3. Press Start, then Pair.
+3. Press Start, then Pair. On macOS with Python from python.org, run its `Install Certificates.command` once first (in `/Applications/Python 3.x/`), or pairing fails with `CERTIFICATE_VERIFY_FAILED`.
 4. Send the code the panel shows to your bot, within 5 minutes.
 
 ## What it does
